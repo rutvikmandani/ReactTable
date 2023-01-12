@@ -1,0 +1,46 @@
+
+ td,  th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+ tr:nth-child(even){background-color: #f2f2f2;}
+
+ tr:hover {background-color: #ddd;}
+
+ th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.pageArrow{
+  display: flex;
+  justify-content: center;
+}
+
+.pageNo{
+  margin-top: 7px;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.input{
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 15px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.tableInput{
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
